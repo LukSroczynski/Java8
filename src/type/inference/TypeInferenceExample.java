@@ -16,7 +16,13 @@ public class TypeInferenceExample {
 
         StringLengthLambda lengthLambda1 = s -> s.length();
         System.out.println(lengthLambda1.getLength(" Biggest shortcut possible! "));
-        
+
+        printLambda(s -> s.length());
+
+    }
+
+    public static void printLambda(StringLengthLambda l) {
+        System.out.println(l.getLength("Hello There. It's Lambda here."));
     }
 
     interface StringLengthLambda {
