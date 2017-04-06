@@ -2,6 +2,9 @@ package difference.inteface.lambda;
 
 /**
  * Created by Lukasz S. on 05.04.2017.
+ *
+ * Type Inference -
+ *
  */
 public class Greeter {
 
@@ -14,16 +17,21 @@ public class Greeter {
         GreetingImpl greeting = new GreetingImpl();
         Greeting lambdaPrint = () -> System.out.println("Hello Mars !");
 
-        Greeting greeting1 = new Greeting() {
+        Greeting innerClassGreeting = new Greeting() {
             @Override
             public void perform() {
 
-                System.out.println("anonymous inner class");
+                System.out.println("Anonymous inner class");
             }
-        }
+        };
 
         greeting.perform();
         lambdaPrint.perform();
+        innerClassGreeting.perform();
+
+        Greeter greeter = new Greeter();
+        greeter.greet(lambdaPrint);
+
 
     }
 }
