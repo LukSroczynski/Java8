@@ -1,4 +1,4 @@
-package exercise.different.approach.java7.java8;
+package compare.java7.java8;
 
 /**
  * Created by Lukasz S. on 06.04.2017.
