@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cbdd1eb-5687-4273-9d57-db18a8741a0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exercises/Person.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java8/current/existing/example/runnable/RunnableExample$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java8/current/existing/example/runnable/RunnableExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java8/current/oop/vs/lambda/interfaces/Greeting.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java8/current/oop/vs/lambda/java7/Greeter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java8/current/oop/vs/lambda/java7/Greeter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java8/current/oop/vs/lambda/java7/GreetingImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java8/current/oop/vs/lambda/java8/Greeter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java8/current/oop/vs/lambda/java8/Greeter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java8/current/type/inference/less/code/TypeInferenceExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java8/current/type/inference/less/code/interfaces/StringLength.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java8/current/type/inference/less/code/interfaces/StringLengthOfTwo.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/existing/example/runnable/RunnableExample.java" afterPath="$PROJECT_DIR$/src/existing/example/runnable/RunnableExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/multiple/methods/functional/Interface/Greeter.java" afterPath="$PROJECT_DIR$/src/multiple/methods/functional/Interface/Greeter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/multiple/methods/functional/Interface/interfaces/Greeting.java" afterPath="$PROJECT_DIR$/src/multiple/methods/functional/Interface/interfaces/Greeting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/oop/vs/lambda/interfaces/Greeting.java" afterPath="$PROJECT_DIR$/src/oop/vs/lambda/interfaces/Greeting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/oop/vs/lambda/java7/Greeter.java" afterPath="$PROJECT_DIR$/src/oop/vs/lambda/java7/Greeter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/oop/vs/lambda/java7/GreetingImpl.java" afterPath="$PROJECT_DIR$/src/oop/vs/lambda/java7/GreetingImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/oop/vs/lambda/java8/Greeter.java" afterPath="$PROJECT_DIR$/src/oop/vs/lambda/java8/Greeter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/type/inference/less/code/TypeInferenceExample.java" afterPath="$PROJECT_DIR$/src/type/inference/less/code/TypeInferenceExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/type/inference/less/code/interfaces/StringLength.java" afterPath="$PROJECT_DIR$/src/type/inference/less/code/interfaces/StringLength.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/type/inference/less/code/interfaces/StringLengthOfTwo.java" afterPath="$PROJECT_DIR$/src/type/inference/less/code/interfaces/StringLengthOfTwo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercises/MainExercise1.java" afterPath="$PROJECT_DIR$/src/exercises/MainExercise1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/multiple/methods/functional/Interface/Greeter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+              <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -73,8 +52,8 @@
       <file leaf-file-name="MainExercise1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exercises/MainExercise1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="351">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -817,15 +796,16 @@
       <workItem from="1491545487567" duration="3884000" />
       <workItem from="1491567105033" duration="1631000" />
       <workItem from="1491805902096" duration="419000" />
-      <workItem from="1493881173488" duration="16667000" />
+      <workItem from="1493881173488" duration="17137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34520000" />
+    <option name="totallyTimeSpent" value="34990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1200,7 +1180,7 @@
     <entry file="file://$PROJECT_DIR$/src/multiple/methods/functional/Interface/Greeter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1228,8 +1208,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/MainExercise1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="351">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
