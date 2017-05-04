@@ -1,4 +1,4 @@
-package current.oop.vs.lambda.interfaces;
+package oop.vs.lambda.interfaces;
 
 /**
  * Created by Lukasz S. on 04.05.2017.

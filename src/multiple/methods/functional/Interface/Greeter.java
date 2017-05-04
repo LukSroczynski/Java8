@@ -24,6 +24,7 @@ public class Greeter {
         };
 
         greeter.greet(innerGreeting);
+        innerGreeting.another();
 
         // So lambda is basically a shortcut for creating annonymous inner classes
         // BUT not exacly true, there are thing that inner class does which is different from what lambda do

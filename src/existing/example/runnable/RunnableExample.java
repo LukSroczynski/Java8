@@ -1,4 +1,4 @@
-package current.existing.example.runnable;
+package existing.example.runnable;
 
 /**
  * Created by Lukasz S. on 04.05.2017.

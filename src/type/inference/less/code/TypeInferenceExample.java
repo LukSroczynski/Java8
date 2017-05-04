@@ -1,7 +1,7 @@
-package current.type.inference.less.code;
+package type.inference.less.code;
 
-import current.type.inference.less.code.interfaces.StringLength;
-import current.type.inference.less.code.interfaces.StringLengthOfTwo;
+import type.inference.less.code.interfaces.StringLength;
+import type.inference.less.code.interfaces.StringLengthOfTwo;
 
 /**
  * Created by Lukasz S. on 04.05.2017.

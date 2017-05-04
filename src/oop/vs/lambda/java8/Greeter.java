@@ -1,6 +1,6 @@
-package current.oop.vs.lambda.java8;
+package oop.vs.lambda.java8;
 
-import current.oop.vs.lambda.interfaces.Greeting;
+import oop.vs.lambda.interfaces.Greeting;
 
 /**
  * Created by Lukasz S. on 04.05.2017.
