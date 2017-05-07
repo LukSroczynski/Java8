@@ -7,7 +7,7 @@ import java.util.function.BiConsumer;
  */
 public class ExepctionHandlingLambdaWrapper {
     public static void main(String[] args) {
-        int[] numbers = {1,2,3,45,6,43,22,54,5,67};
+        int[] numbers = {1,2,3,4,5,6,7,8,9,10};
         int key = 0;
 
         process(numbers, key, wrapperLambda((integer, integer2) -> System.out.println(integer / integer2)));
@@ -25,7 +25,7 @@ public class ExepctionHandlingLambdaWrapper {
             try {
                 consumer.accept(integer, integer2);
             } catch (ArithmeticException ex) {
-                System.out.println("Exeption in wrapper lambda");
+                System.out.println("Exeption inside lambda wrapper");
             }
         };
     }
