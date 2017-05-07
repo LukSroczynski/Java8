@@ -1,4 +1,4 @@
-package exercises;
+package EXERCISES;
 
 /**
  * Created by Surreallistic on 06.05.2017.

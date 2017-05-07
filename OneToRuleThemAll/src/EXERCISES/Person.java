@@ -1,4 +1,4 @@
-package exercises;
+package EXERCISES;
 
 /**
  * Created by Lukasz S. on 04.05.2017.

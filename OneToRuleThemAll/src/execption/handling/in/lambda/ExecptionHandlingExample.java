@@ -1,5 +1,7 @@
 package execption.handling.in.lambda;
 
+import method.references.MethodReferenceExample1;
+
 import java.util.function.BiConsumer;
 
 /**
