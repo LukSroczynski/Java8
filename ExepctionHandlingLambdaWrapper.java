@@ -5,7 +5,7 @@ import java.util.function.BiConsumer;
 /**
  * Created by Lukasz S. on 07.05.2017.
  */
-public class ExecptionHandlingExample {
+public class ExepctionHandlingLambdaWrapper {
     public static void main(String[] args) {
         int[] numbers = {1,2,3,45,6,43,22,54,5,67};
         int key = 0;
