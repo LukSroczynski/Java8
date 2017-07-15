@@ -49,7 +49,7 @@ public class Test {
         humanoid.printHumanoidObject(devs_list, "After sort by age");
 
         /**
-         *                Sort by Age
+         *                Sort by Names
          *          How does Compare works:
          *  return zero_value     ->  if objects are equal
          *  return positive_value ->  if object o1 > o2
