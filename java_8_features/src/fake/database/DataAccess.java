@@ -18,12 +18,12 @@ public class DataAccess {
         result.add(new Developer("Shibuya", new BigDecimal("70000"), 33));
         result.add(new Developer("Alvin", new BigDecimal("80000"), 20));
         result.add(new Developer("Jackson", new BigDecimal("1003000"), 34));
-        result.add(new Developer("Posado", new BigDecimal("322000"), 65));
+        result.add(new Developer("Zasado", new BigDecimal("322000"), 65));
         result.add(new Developer("Codex", new BigDecimal("2310000"), 32));
         result.add(new Developer("Petereo", new BigDecimal("90000"), 54));
         result.add(new Developer("Jack", new BigDecimal("100000"), 90));
         result.add(new Developer("Maron", new BigDecimal("100000"), 77));
-        result.add(new Developer("Iris", new BigDecimal("170000"), 55));
+        result.add(new Developer("Zris", new BigDecimal("170000"), 55));
 
         return result;
     }
