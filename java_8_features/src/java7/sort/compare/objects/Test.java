@@ -14,16 +14,16 @@ import java.util.List;
  */
 public class Test {
 
+    // get list of devs to work on - SAMPLE DATA
+    static List<Developer> devs_list = DataAccess.get_developers();
+
+    // create object for printing Humanoids
+    static ShowHumanoid<Developer> humanoid = new ShowHumanoid<>();
+
     public static void main(String[] args) {
 
-        // get list of devs to work on
-        List<Developer> listDevs = DataAccess.get_developers();
-
         // Objects before sort
-        for (Developer developer : listDevs) {
-            System.out.print("Before Sort:\t");
-            System.out.println(developer.getName() +" of age "+ developer.getAge());
-        }
+        humanoid.printHumanoidObject(devs_list, "Before Sort");
 
         /**
          *               Sort by Age
@@ -32,7 +32,7 @@ public class Test {
          *  return positive_value -> if object o1 > o2
          *  return negative_value -> if object o1 < o2
          */
-        Collections.sort(listDevs, new Comparator<Developer>() {
+        Collections.sort(devs_list, new Comparator<Developer>() {
             @Override
             public int compare(Developer o1, Developer o2) {
                 return o1.getAge() - o2.getAge();
@@ -40,10 +40,7 @@ public class Test {
         });
 
         // Objects sorted by age
-        ShowHumanoid<Developer> developerShowCode = new ShowHumanoid<>();
-        developerShowCode.printHumanoidObject(listDevs, "After sort");
-
-        ShowHumanoid
+        humanoid.printHumanoidObject(devs_list, "After sort");
 
 
     }

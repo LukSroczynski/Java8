@@ -1,8 +1,10 @@
 package utilities;
 
+import model.Developer;
 import model.Humanoid;
 
 import java.util.List;
+import java.util.stream.IntStream;
 
 /**
  * Created by Surrealistic on 15/07/2017.
@@ -16,15 +18,14 @@ public class ShowHumanoid<T extends Humanoid> {
     }
 
     public void printHumanoidObject(List<T> objects, String message) {
-        for (T obj : objects) {
-            System.out.print("Msg: "+ message + "  ");
-            System.out.println(obj.getName() +" of age "+ obj.getAge());
-        }
+
+        objects.stream()
+                .forEach(e -> System.out.printf(("Msg: (%s) %s of age %d\n"), message, e.getName(), e.getAge()));
     }
 
     public void printHumanoidObject(List<T> objects) {
-        for (T obj : objects) {
-            System.out.println(obj.getName() +" of age "+ obj.getAge());
-        }
+
+        objects.stream()
+                .forEach(e -> System.out.printf(("(%s) of age %d\n"), e.getName(), e.getAge()));
     }
 }
