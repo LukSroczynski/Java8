@@ -7,21 +7,24 @@ import java.util.List;
 /**
  * Created by Surrealistic on 15/07/2017.
  */
-public class ShowCode<T> implements Humanoid{
+public class ShowCode<T extends Humanoid> {
 
     private T t;
 
     private T getT() {
-
+        return this.t;
     }
 
-    @Override
-    public String getName() {
-        return null;
+    private void printObject(List<T> objects, String message) {
+        for (T obj : objects) {
+            System.out.print(message + "||  ");
+            System.out.println(obj.getName() +" of age "+ obj.getAge());
+        }
     }
 
-    @Override
-    public int getAge() {
-        return 0;
+    private void printObject(List<T> objects) {
+        for (T obj : objects) {
+            System.out.println(obj.getName() +" of age "+ obj.getAge());
+        }
     }
 }

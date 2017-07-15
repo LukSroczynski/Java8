@@ -13,6 +13,12 @@ public class Developer implements Humanoid {
 
     private int age;
 
+    public Developer(String name, BigDecimal salary, int age) {
+        this.name = name;
+        this.salary = salary;
+        this.age = age;
+    }
+
     @Override
     public String getName() {
         return name;

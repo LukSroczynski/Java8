@@ -2,7 +2,6 @@ package java7.sort.compare.objects;
 
 import fake.database.DataAccess;
 import model.Developer;
-import model.Humanoid;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -17,7 +16,7 @@ public class Test {
     public static void main(String[] args) {
 
         // get list of devs to work on
-        List<Developer> listDevs = DataAccess.getDevelopers();
+        List<Developer> listDevs = DataAccess.get_developers();
 
         // Objects before sort
         for (Developer developer : listDevs) {
