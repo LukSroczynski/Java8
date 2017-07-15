@@ -11,12 +11,6 @@ import java.util.stream.IntStream;
  */
 public class ShowHumanoid<T extends Humanoid> {
 
-    private T t;
-
-    private T getT() {
-        return this.t;
-    }
-
     public void printHumanoidObject(List<T> objects, String message) {
 
         objects.stream()

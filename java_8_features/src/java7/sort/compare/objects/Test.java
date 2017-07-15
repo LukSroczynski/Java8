@@ -14,10 +14,10 @@ import java.util.List;
  */
 public class Test {
 
-    // get list of devs to work on - SAMPLE DATA
+    // SAMPLE DATA - get list of devs
     static List<Developer> devs_list = DataAccess.get_developers();
 
-    // create object for printing Humanoids
+    // Object for printing Humanoids
     static ShowHumanoid<Developer> humanoid = new ShowHumanoid<>();
 
     public static void main(String[] args) {
@@ -26,11 +26,12 @@ public class Test {
         humanoid.printHumanoidObject(devs_list, "Before Sort");
 
         /**
-         *               Sort by Age
-         * Compare:
-         *  return 0 -> if objects are equal
-         *  return positive_value -> if object o1 > o2
-         *  return negative_value -> if object o1 < o2
+         *                Sort by Age
+         *          How does Compare works:
+         *  return zero_value     ->  if objects are equal
+         *  return positive_value ->  if object o1 > o2
+         *  return negative_value ->  if object o1 < o2
+         *
          */
         Collections.sort(devs_list, new Comparator<Developer>() {
             @Override
