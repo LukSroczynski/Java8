@@ -2,6 +2,7 @@ package java7.sort.compare.objects;
 
 import fake.database.DataAccess;
 import model.Developer;
+import utilities.ShowHumanoid;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -39,7 +40,12 @@ public class Test {
         });
 
         // Objects sorted by age
-        objectsSortedByAge(listDevs);
+        ShowHumanoid<Developer> developerShowCode = new ShowHumanoid<>();
+        developerShowCode.printHumanoidObject(listDevs, "After sort");
+
+        ShowHumanoid
+
+
     }
 
 

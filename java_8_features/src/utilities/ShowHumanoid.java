@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Created by Surrealistic on 15/07/2017.
  */
-public class ShowCode<T extends Humanoid> {
+public class ShowHumanoid<T extends Humanoid> {
 
     private T t;
 
@@ -15,14 +15,14 @@ public class ShowCode<T extends Humanoid> {
         return this.t;
     }
 
-    private void printObject(List<T> objects, String message) {
+    public void printHumanoidObject(List<T> objects, String message) {
         for (T obj : objects) {
-            System.out.print(message + "||  ");
+            System.out.print("Msg: "+ message + "  ");
             System.out.println(obj.getName() +" of age "+ obj.getAge());
         }
     }
 
-    private void printObject(List<T> objects) {
+    public void printHumanoidObject(List<T> objects) {
         for (T obj : objects) {
             System.out.println(obj.getName() +" of age "+ obj.getAge());
         }
