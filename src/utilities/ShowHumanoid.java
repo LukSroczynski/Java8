@@ -11,7 +11,7 @@ import java.util.stream.IntStream;
  */
 public class ShowHumanoid<T extends Humanoid> {
 
-    public void printHumanoidObject(List<T> objects, String message) {
+    public void printHumanoidObject(List<? extends Humanoid> objects, String message) {
 
         objects.stream()
                 .forEach(e -> System.out.printf(("Msg: (%s) %s of age %d\n"), message, e.getName(), e.getAge()));
