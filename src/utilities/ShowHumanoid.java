@@ -22,4 +22,5 @@ public class ShowHumanoid<T extends Humanoid> {
         objects.stream()
                 .forEach(e -> System.out.printf(("(%s) of age %d\n"), e.getName(), e.getAge()));
     }
+    
 }
